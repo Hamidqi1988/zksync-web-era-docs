@@ -8,3 +8,21 @@ Now that you have learned how to deploy your contracts, you might be interested 
 ## Verify smart contracts with the hardhat-zksync-verify plugin
 
 Learn how to verify your smart contracts with **zkSync Era hardhat plugin**, by following the detailed guide on the [hardhat-zksync-verify](../../../api/hardhat/hardhat-zksync-verify.md) page.
+
+networks: {
+    ...
+},
+etherscan: {
+  apiKey: //<Your API key for Etherscan>,
+},
+
+
+  module.exports = [
+  "a string argument",
+  "0xabcdef",
+  "42",
+  {
+    property1: "one",
+    property2: 2,
+  },
+];
